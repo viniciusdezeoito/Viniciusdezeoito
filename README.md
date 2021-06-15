@@ -1,2 +1,2 @@
 # Viniciusdezeoito
-I love :pizza: and 🎮
+I love :pizza: and 🎮 ponto
