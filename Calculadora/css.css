@@ -5,6 +5,9 @@
     width:400px;
     height:650px;
     background-color:rgb(6, 179, 6);
+    border-radius:8px;
+    box-shadow:8px 10px 6px green inset,8px 8px 6px green;
+    
 }
 #subDivPrincipalResultado{
     position:absolute;
@@ -68,7 +71,7 @@
     margin:26px;
     padding:16px;
     top:-20px;
-    left:90px;
+    left:70px;
     font-size:28px;
     color:rgb(255, 255, 255);
 }
@@ -137,4 +140,84 @@ button{
     position:absolute;
     top:819px;
 left:610px;
+display:none;
 }
+#funcoesDois{
+    position:absolute;
+    top:819px;
+left:610px;
+display:none;
+}
+body{
+    background:linear-gradient(to right,green,red);
+}
+#apresentacao{
+  
+    width:600px;
+    position:relative;
+    transform:translate(520px,0px);
+}
+#apresentacao h1{
+    font-family:Agency FB;
+    font-size:80px;
+    
+}
+#f{
+    position:relative;
+    transform:translate(1100px,50px);
+}
+#um:hover{
+    background-color:rgb(248, 139, 125);
+    box-shadow:4px 4px 6px rgb(225, 238, 225);
+    width:90px;
+    height:59px;
+}
+#dois:hover{
+    background-color:rgb(248, 72, 72);
+    box-shadow:4px 4px 6px rgb(225, 238, 225);
+    width:90px;
+    height:59px;
+}
+#tres:hover{
+    background-color:red;
+    box-shadow:4px 4px 6px rgb(225, 238, 225);
+    width:90px;
+    height:59px;
+}
+#quatro:hover{
+    background-color:rgb(248, 139, 125);
+    box-shadow:4px 4px 6px rgb(225, 238, 225);
+    width:90px;
+    height:59px;
+}
+#cinco:hover{
+    background-color:rgb(248, 72, 72);
+    box-shadow:4px 4px 6px rgb(225, 238, 225);
+    width:90px;
+    height:59px;
+}
+#seis:hover{
+    background-color:red;
+    box-shadow:4px 4px 6px rgb(225, 238, 225);
+    width:90px;
+    height:59px;
+}
+#sete:hover{
+    background-color:rgb(248, 139, 125);
+    box-shadow:4px 4px 6px rgb(225, 238, 225);
+    width:90px;
+    height:59px;
+}
+#oito:hover{
+    background-color:rgb(248, 72, 72);
+    box-shadow:4px 4px 6px rgb(225, 238, 225);
+    width:90px;
+    height:59px;
+}
+#nove:hover{
+    background-color:red;
+    box-shadow:4px 4px 6px rgb(225, 238, 225);
+    width:90px;
+    height:59px;
+}
+
