@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css.css"/>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="principal"> 
+        
+        <div id="subDivPrincipalResultadoUm" >
+            
+        </div>
+        <div id="subDivPrincipalResultadoUmTexto" onmouseover="funcaoMudarDois()" onmouseout="funcaoMudarRetirarDois()">
+            <p id="textoCelsius" onclick="ativarCelsius()">0</p>
+            <h4>Celsius</h4>
+        </div>
+<div id="subDivPrincipalResultado">
+
+</div>
+<div id="subDois" onmouseover="funcaoMudar()" onmouseout="funcaoMudarRetirar()">
+    <p id="far" onclick="ativarFare()">0</p>
+    
+<h4>Fehrenheit</h4>
+
+</div>
+
+
+<div id="subDivPrincipalConversao">
+
+</div>
+<div id="botoes">
+<button id="um" value="1" onclick="mudarCelsius(this)">1</button>
+<button id="dois" value="2" onclick="mudarCelsius(this)">2</button>
+<button id="tres" value="3" onclick="mudarCelsius(this)">3</button>
+</div>
+<div id="botoes_um">
+<button id="quatro" value="4" onclick="mudarCelsius(this)">4</button>
+<button id="cinco" value="5" onclick="mudarCelsius(this)">5</button>
+<button id="seis" value="6" onclick="mudarCelsius(this)">6</button>
+</div>
+<div id="botoes_dois">
+<button id="sete" value="7" onclick="mudarCelsius(this)">7</button>
+<button id="oito" value="8" onclick="mudarCelsius(this)">8</button>
+<button id="nove" value="9" onclick="mudarCelsius(this)">9</button>
+</div>
+
+<div id="fare">
+    <button id="umF" value="1" onclick="mudarFare(this)">1</button>
+    <button id="doisF" value="2" onclick="mudarFare(this)">2</button>
+    <button id="tresF" value="3" onclick="mudarFare(this)">3</button>
+</div>
+<div id="fare_um">
+    <button id="quatroF" value="4" onclick="mudarFare(this)">4</button>
+    <button id="cincoF" value="5" onclick="mudarFare(this)">5</button>
+    <button id="seisF" value="6" onclick="mudarFare(this)">6</button>
+    </div>
+    <div id="fare_dois">
+    <button id="seteF" value="7" onclick="mudarFare(this)">7</button>
+    <button id="oitoF" value="8" onclick="mudarFare(this)">8</button>
+    <button id="noveF" value="9" onclick="mudarFare(this)">9</button>
+</div>
+    </div>
+    <div id="funcoes">
+        <button value="Limpar" onclick="limpa()">Limpar</button>
+        <button value="=" onclick="converterCelsius()">=</button>
+    </div>
+    <div id="funcoesDois">
+        <button value="Limpar" onclick="Limpa()">Limpar</button>
+        <button value="=" onclick="converterFare()">=</button>
+    </div>
+    <div id="apresentacao">
+     <h1>Conversão rápida</h1>
+    </div>
+    <div id="f">
+       
+    </div>
+</body>
+</html>
