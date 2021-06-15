@@ -1,2 +1,2 @@
 # Viniciusdezeoito
-Projects of my own
+I love :pizza: and 🎮
