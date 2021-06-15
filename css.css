@@ -1,0 +1,223 @@
+#principal{
+    position:absolute;
+    left:560px;
+    top:250px;
+    width:400px;
+    height:650px;
+    background-color:rgb(6, 179, 6);
+    border-radius:8px;
+    box-shadow:8px 10px 6px green inset,8px 8px 6px green;
+    
+}
+#subDivPrincipalResultado{
+    position:absolute;
+    top:220px;
+    left:50px;
+    border:solid transparent;
+    background-color:rgb(49, 235, 49);
+    width:300px;
+    height:90px;
+    display:none;
+   
+}
+#subDivPrincipalResultadoUm{
+    position:absolute;
+    top:80px;
+    left:50px;
+    border:solid transparent;
+    background-color:rgb(49, 235, 49);
+    width:300px;
+    height:90px;
+   display:none;
+   
+}
+#subDivPrincipalResultadoUmTexto{
+    position:absolute;
+    top:80px;
+    left:50px;
+    width:300px;
+    height:90px;
+   
+   
+}
+#subDivPrincipalResultadoUmTexto p{
+    position:absolute;
+    margin:26px;
+    padding:16px;
+    top:-20px;
+    left:70px;
+    font-size:28px;
+    color:rgb(255, 255, 255);
+
+}
+#subDivPrincipalResultadoUmTexto h4{
+    position:absolute;
+    top:40px;
+    left:110px;
+    font-size:18px;
+    color:rgb(226, 223, 223);
+}
+#subDois{
+    position:absolute;
+    top:220px;
+    left:50px;
+    
+    width:300px;
+    height:90px;
+    
+}
+#subDois p{
+    position:absolute;
+    margin:26px;
+    padding:16px;
+    top:-20px;
+    left:70px;
+    font-size:28px;
+    color:rgb(255, 255, 255);
+}
+#subDois h4{
+    position:absolute;
+    top:40px;
+    left:100px;
+    font-size:18px;
+    color:rgb(226, 223, 223);
+}
+#botoes{
+    position:absolute;
+    top:350px;
+    left:30px;
+    padding:18px;
+    margin:2px;
+    width:280px;
+
+    display:none;
+}
+#botoes_um{
+position:absolute;
+top:435px;
+left:50px;
+}
+#fare_um{
+    position:absolute;
+top:435px;
+left:50px;
+}
+#botoes_dois{
+    position:absolute;
+    top:500px;
+left:50px;
+}
+#fare_dois{
+    position:absolute;
+    top:500px;
+left:50px;
+}
+button{
+    width:90px;
+    border-radius:6px;
+    height:55px;
+    background-color:rgb(137, 240, 142);
+   color:white;
+   font-size:22px;
+}
+#fare{
+  
+    position:absolute;
+    top:350px;
+    left:30px;
+    padding:18px;
+    margin:2px;
+    width:280px;
+   
+}
+button{
+    width:90px;
+    border-radius:6px;
+    height:55px;
+   
+}
+#funcoes{
+    position:absolute;
+    top:819px;
+left:610px;
+display:none;
+}
+#funcoesDois{
+    position:absolute;
+    top:819px;
+left:610px;
+display:none;
+}
+body{
+    background:linear-gradient(to right,green,red);
+}
+#apresentacao{
+  
+    width:600px;
+    position:relative;
+    transform:translate(520px,0px);
+}
+#apresentacao h1{
+    font-family:Agency FB;
+    font-size:80px;
+    
+}
+#f{
+    position:relative;
+    transform:translate(1100px,50px);
+}
+#um:hover{
+    background-color:rgb(248, 139, 125);
+    box-shadow:4px 4px 6px rgb(225, 238, 225);
+    width:90px;
+    height:59px;
+}
+#dois:hover{
+    background-color:rgb(248, 72, 72);
+    box-shadow:4px 4px 6px rgb(225, 238, 225);
+    width:90px;
+    height:59px;
+}
+#tres:hover{
+    background-color:red;
+    box-shadow:4px 4px 6px rgb(225, 238, 225);
+    width:90px;
+    height:59px;
+}
+#quatro:hover{
+    background-color:rgb(248, 139, 125);
+    box-shadow:4px 4px 6px rgb(225, 238, 225);
+    width:90px;
+    height:59px;
+}
+#cinco:hover{
+    background-color:rgb(248, 72, 72);
+    box-shadow:4px 4px 6px rgb(225, 238, 225);
+    width:90px;
+    height:59px;
+}
+#seis:hover{
+    background-color:red;
+    box-shadow:4px 4px 6px rgb(225, 238, 225);
+    width:90px;
+    height:59px;
+}
+#sete:hover{
+    background-color:rgb(248, 139, 125);
+    box-shadow:4px 4px 6px rgb(225, 238, 225);
+    width:90px;
+    height:59px;
+}
+#oito:hover{
+    background-color:rgb(248, 72, 72);
+    box-shadow:4px 4px 6px rgb(225, 238, 225);
+    width:90px;
+    height:59px;
+}
+#nove:hover{
+    background-color:red;
+    box-shadow:4px 4px 6px rgb(225, 238, 225);
+    width:90px;
+    height:59px;
+}
+
